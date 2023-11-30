@@ -7,6 +7,7 @@ let Table = () => {
 
             <table border="1" cellPadding="10" cellSpacing="0">
             
+            <tbody>
             <tr>
                 <th>tableHeader</th>
                 <th>tableHeader</th>
@@ -35,8 +36,7 @@ let Table = () => {
                 <td>4</td>
                 <td>4</td>
             </tr>
-
-
+            </tbody>
 
             </table> <br/><br/>
 
