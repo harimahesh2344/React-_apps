@@ -10,6 +10,9 @@ import React_bootstrap from "./Component/Usingbootstrap.js/reactbootstrap"
 import Buttons from "./Component/buttons/btn"
 import Text from "./Component/table-text-componet/text"
 import Showdate from "./Component/greething-date/showdate"
+import Carousel from "./Component/carousel-creating/carousel"
+import Map from "./Component/obj-map/map"
+import Apiprofile from "./Component/fakeapi.js/fakeapi"
 
 
 function kk() {
@@ -40,23 +43,18 @@ function kk() {
       <ProfileObjects/> */}
 
 
-
-
        {/* cars web sites  */}
 
 
-{/* 
-        <React_bootstrap /> 
-    */}
 
-
-
+        {/* <React_bootstrap />  */}
+    
 
       {/* buttons task */}
 
 
 
-     <Buttons type="Size 1"backgroundColor= {getRandomColor()} color={"white"} width="100px" height="50px" /> <br/>  <br/>
+     {/* <Buttons type="Size 1"backgroundColor= {getRandomColor()} color={"white"} width="100px" height="50px" /> <br/>  <br/>
       <Buttons type="Size 2" backgroundColor={getRandomColor()}  color="white" width="150px" height="50px" /> <br/> <br/>
       <Buttons type="Size 3" backgroundColor={getRandomColor()}  color="white"  width="180px" height="50px"/> <br/> <br/>
       <Buttons type="Size 4" backgroundColor={getRandomColor()}  color="white" width="200px" height="50px"/> <br/> <br/>
@@ -67,17 +65,36 @@ function kk() {
       <Buttons type="Size 9" backgroundColor={getRandomColor()}  color="white" width="320px" height="50px"/> <br/> <br/>
       <Buttons type="Size 10" backgroundColor={getRandomColor()}  color="white"width="350px"height="50px" />  <br/> <br/>
     
-  
+   */}
 
 
    {/* tables using jsxprop */}
-{/* 
-   <Text>
+
+
+   {/* <Text>
 <p>Hai user how are you <h1>lavan</h1></p>
 
-   </Text> */}
+   </Text>  */}
    
+
+
+
+   {/* Carousel  */}
+
+   {/* <Carousel/> */}
    
+
+
+
+
+{/* 
+map */}
+{/* 
+<Map/> */}
+
+
+
+<Apiprofile/>
 
 
     </div>
