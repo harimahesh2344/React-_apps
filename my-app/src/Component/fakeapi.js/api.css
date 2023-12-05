@@ -1,0 +1,38 @@
+
+
+#styles:hover{
+
+    background-color: rgb(223, 205, 204);
+    
+}
+
+center + button:hover{
+
+    background-color: rgb(223, 205, 204);
+    
+}
+
+center + button{
+
+    margin-left: 120px;
+    padding: 8px;
+    border-radius: 15px ;
+   font-weight: 600;
+}
+
+#styles{
+    border: 1px solid red ;
+    padding: 8px;
+    border-radius: 15px 0 15px 0;
+   font-weight: 600;
+}
+
+#spinner{
+
+    position: relative;
+    top: 250px;
+    left: 430px;
+    color: red;
+
+    
+}

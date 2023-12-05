@@ -20,9 +20,9 @@ function kk() {
 
   function getRandomColor() {
     
-    const red = Math.floor(Math.random() * 256);
-    const green = Math.floor(Math.random() * 256);
-    const blue = Math.floor(Math.random() * 256);
+    const red = Math.floor(Math.random() * 255);
+    const green = Math.floor(Math.random() * 255);
+    const blue = Math.floor(Math.random() * 255);
 
     const color = `rgb(${red}, ${green}, ${blue})`;
 
@@ -34,8 +34,8 @@ function kk() {
   return (
 
     <div>
-
-      {/* <UnoderList/>
+{/* 
+      <UnoderList/>
       <Orderlist/>
       <Images/>
       <Table/>
@@ -54,7 +54,7 @@ function kk() {
 
 
 
-     {/* <Buttons type="Size 1"backgroundColor= {getRandomColor()} color={"white"} width="100px" height="50px" /> <br/>  <br/>
+      {/* <Buttons type="Size 1"backgroundColor= {getRandomColor()} color={"white"} width="100px" height="50px" /> <br/>  <br/>
       <Buttons type="Size 2" backgroundColor={getRandomColor()}  color="white" width="150px" height="50px" /> <br/> <br/>
       <Buttons type="Size 3" backgroundColor={getRandomColor()}  color="white"  width="180px" height="50px"/> <br/> <br/>
       <Buttons type="Size 4" backgroundColor={getRandomColor()}  color="white" width="200px" height="50px"/> <br/> <br/>
@@ -81,16 +81,16 @@ function kk() {
 
    {/* Carousel  */}
 
-   {/* <Carousel/> */}
-   
+   {/* <Carousel/>
+    */}
 
 
 
 
 {/* 
 map */}
-{/* 
-<Map/> */}
+
+{/* <Map/> */}
 
 
 
