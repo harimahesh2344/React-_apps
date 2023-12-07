@@ -13,6 +13,7 @@ import Showdate from "./Component/greething-date/showdate"
 import Carousel from "./Component/carousel-creating/carousel"
 import Map from "./Component/obj-map/map"
 import Apiprofile from "./Component/fakeapi.js/fakeapi"
+import Employees from "./Component/Employees_detailes/Employess"
 
 
 function kk() {
@@ -94,8 +95,9 @@ map */}
 
 
 
-<Apiprofile/>
+{/* <Apiprofile/> */}
 
+<Employees/>
 
     </div>
   )
