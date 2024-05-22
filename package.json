@@ -5,3 +5,18 @@
     "react-bootstrap": "^2.9.1"
   }
 }
+{
+  "name": "your-react-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build" // This is the build script
+  },
+  "dependencies": {
+    // your dependencies
+  },
+  "devDependencies": {
+    // your devDependencies
+  }
+}
+
